@@ -1,0 +1,27 @@
+.u-bold-medium {
+  font-weight: 500;
+}
+.u-margin-top {
+  margin-top: -1rem;
+}
+.u-margin-left {
+  margin-left: 1rem;
+}
+.u-color-green {
+  color: var(--color-primary-dark);
+  margin-left: 1rem;
+  font-weight: 500;
+}
+.u-display-flex {
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.u-marigin-bottom-medium {
+  margin-bottom: 2rem;
+}
+
+.u-disabled-textinput {
+  opacity: 0.5;
+}

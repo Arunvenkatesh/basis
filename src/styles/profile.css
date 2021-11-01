@@ -1,0 +1,117 @@
+.profile-box {
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem var(--black-shadow--large);
+  width: 35%;
+  height: 35rem;
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+@media only screen and (max-width: 80em) {
+  .profile-box {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .profile-box {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 46.75em) {
+  .profile-box {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 30.25em) {
+  .profile-box {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 24.25em) {
+  .profile-box {
+    width: 100%;
+  }
+}
+.logout {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  background-color: var(--color-primary-light);
+  padding: 0.5rem 2rem;
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 1.6rem;
+  border-radius: 5rem;
+  border: 2px solid var(--color-primary-dark);
+  transition: all 0.5s;
+}
+.logout:hover {
+  transform: scale(1.1);
+}
+.avatar {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.profile-label {
+  color: var(--primary-dark-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+}
+@media only screen and (max-width: 80em) {
+  .profile-label {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .profile-label {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 46.75em) {
+  .profile-label {
+    letter-spacing: 0px;
+  }
+}
+
+.profile-text {
+  color: var(--primary-gray-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 2px solid var(--secondary-gray-color);
+}
+
+@media only screen and (max-width: 80em) {
+  .profile-text {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .profile-text {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 46.75em) {
+  .profile-text {
+    letter-spacing: 0px;
+  }
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0.5rem 3.5rem;
+  text-align: center;
+}

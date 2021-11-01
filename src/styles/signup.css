@@ -1,0 +1,21 @@
+.agree-checkbox {
+  width: 2rem;
+  height: 2rem;
+}
+.agree-checkbox:after {
+  content: ' ';
+  background-color: var(--color-primary-dark);
+  display: inline-block;
+  visibility: visible;
+}
+.agree-checkbox:checked:after {
+  content: '\2714';
+  box-shadow: 0px 2px 4px rgba(155, 155, 155, 0.15);
+  height: 2rem;
+  width: 2rem;
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--color-white);
+  transform: scale(1.2);
+}

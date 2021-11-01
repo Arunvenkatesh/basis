@@ -1,0 +1,15 @@
+.heading-secondary {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary-light),
+    var(--color-primary-dark)
+  );
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
